@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section {
+    position: relative;
+    z-index: -1;
+ 
+}
+.main .bg-img img{
+ height: 750px;
+ width: 100%;
+ filter: brightness(0.4);
+ 
+}
+ section .main .on-content{
+    position: absolute;
+    top: 55px;
+    left: 550px;
+    text-align: center;
+    color:white;
+    display: grid;
+    gap: 40px;
+}
+section .main .on-content h3{
+  font-size: 35px;
+}
+section .main .on-content p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.div1{
+    position: absolute;
+    bottom: -10px;
+    z-index: 0;
+    
+
+}
+.div2{
+    margin-top: 40px;
+    position: absolute;
+    top: 580px;
+    left: 390px;
+    color: orangered;
+}
+.div2 p{
+    color: white;
+}
+.img-sec{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+
+
+
+}
+.img-sec img{
+    height:100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px white;
+}
+.img1{
+    margin-top: 130px;
+    margin-left:155px;
+}
+.img2{
+    margin-bottom:50px;
+    margin-left:155px;
+}
+.img3{
+    margin-top: -100px;
+    margin-bottom: 150px;
+    margin-left:155px;
+}
+.img4{
+    margin-top: -200px;
+    margin-bottom: 250px;
+    margin-left:155px;
+}
+.img5{
+    margin-top: -180px;
+    margin-bottom: 230px;
+    margin-left:165px;
+}
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div class="bg-img">
+                <img src="images/d 1.webp" alt="">
+            </div>
+            <div class="on-content">
+                <h3>OUR TEAM</h3>
+                <P>Meet the craziest team . Share your thoughts with them.</P>
+                <div class="bf-af">*</div>
+            </div>
+        </div>
+        <div class="img-sec">
+
+            <img class="img1" src="images/g1.jpeg" alt="">
+    
+    
+            <img class="img2"  src="images/m1.jpeg" alt="">
+    
+    
+            <img  class="img3"  src="images/g2.jpeg" alt="">
+    
+    
+            <img class="img4"  src="images/g3.jpeg" alt="">
+    
+    
+            <img class="img5" src="images/m2.jpeg" alt="">
+    
+        </div>
+    
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="div1">
+            <path class="pl" d="M-5.07,73.52 C149.99,150.00 299.66,-102.13 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: rgb(149, 41, 41); fill:rgba(196, 11, 11, 0.252)"></path>
+        </svg>
+    </section>
+   
+
+    <div class="div2">
+        <h3>WEB DESIGNER</h3>
+        <P>UI/UX Designer</P>
+    </div>
+
+</body>
+
+</html>
